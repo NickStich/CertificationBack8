@@ -22,4 +22,12 @@ public class CertificationService {
         return (List<Certification>) certificationRepository.findAll();
     }
 
+    public Certification updateCertification(Certification certification){
+        return certificationRepository.save(certification);
+    }
+
+    public void deleteCertification(int id){
+        certificationRepository.deleteById(id);
+    }
+
 }
