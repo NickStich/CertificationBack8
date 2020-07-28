@@ -14,7 +14,7 @@ import java.lang.annotation.Annotation;
 
 public class Main {
     public static void main(String[] args) {
-        Certification certification = new Certification(1,"dsfhgsdf","dfhgdsf", Category.CATEGORY1, Quarter.Q1,100.8,"lorem ipsum", Status.Approved);
+        Certification certification = new Certification();
 
         System.out.println("something");
     }
