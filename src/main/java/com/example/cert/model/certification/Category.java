@@ -1,4 +1,4 @@
-package com.example.cert.model;
+package com.example.cert.model.certification;
 
 public enum Category {
     CATEGORY1,
